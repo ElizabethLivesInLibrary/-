@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>nav</title>
+  <style>
+.unselected, .selected{
+  list-style-type:none;
+  padding:10px;
+  margin:10px;
+}
+nav .unselected{
+  background-color:#88d6d6;
+  float:left;
+}
+
+nav .selected{
+  background-color:#525174;
+  color:#000;
+  float:left;
+}
+nav .dropdown {
+  background-color:#88d6d6;
+  position:relative;
+  float:left;
+  display:block;
+}
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Brand</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="nav navbar-nav">
+        <li class="selected"><a href="Note of Education.html">Note of Education <span class="sr-only">(current)</span></a></li>
+        <li class="unselected"><a href="Note of Language Learning.html">Note of Language Learning</a></li>
+        <li class="unselected">
+          <a href="Note of IT skills.html">Note of IT Skills</a>
+          <button type="button" class="btn btn-default btn-lg">
+              <span class="glyphicon glyphicon-th-list" aria-hidden="true"></span> more
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"></a><ul class="dropdown-menu">
+              <li><a href="Homework.html">Homework</a></li>
+            </ul>
+            </button>
+          
+            
+        </li>
+          
+      <!form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">go</button>
+      <!/form>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+</body>
+</html>

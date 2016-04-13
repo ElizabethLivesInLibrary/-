@@ -1,0 +1,90 @@
+body{
+  background-color:#F0F3BD;
+  font-family:'Roboto', sans-serif;
+  font-size:14px;
+  line-height:1.5em;
+}
+header{
+  background-color:#348AA7;
+}
+*{
+  box-sizing:border-box;
+}
+.container-fluid h1{
+  float:right;
+}
+.container{
+  background-color:#cfe1b9;
+  border: dotted 2px #028090;
+  border-radius:10px;
+  overflow:auto;
+  clear:both;
+  margin:20px auto;
+  padding:30px;
+}
+      
+table{
+  table-layout:auto;
+  padding:20px;
+  border-collapse:collapse; 
+  border:dotted 3px #00A896;
+  border-radius:10px;
+  
+}
+tr,td{
+  border-collapse:collapse; 
+  border:dotted 3px #00A896;
+  padding:20px;
+  
+}
+th{
+  padding:20px;
+}
+
+
+footer{
+  background-color:#8FBC94;
+  padding:8px;
+  font-family:"華康細黑體","微軟正黑體",sans-serif;
+  font-weight:300;
+  line-height:1.5em;
+  font-size:0.8em;
+  text-align:left;
+  max-width:100%;
+  clear:both;
+}
+
+nav .unselected{
+  background-color:#88d6d6;
+  margin:10px;
+  list-style-type:none;
+  padding:10px;
+  width:20%;
+  float:left;
+}
+
+    nav ul li a:link,nav  ul li a:visited{
+      color:#348AA7;
+      border-bottom:none;
+      font-weight:600;
+    }
+    nav ul li.selected{
+      background-color:#525174;
+      color:#000;
+      margin:10px;
+      list-style-type:none;
+      padding:10px;
+      width:20%;
+      float:left;
+    }
+    .navbar ul li a:hover{
+      color:#348AA7;
+    }
+    .navbar .submenu{
+      background-color:#348AA7;
+      color:#513B56;
+      display:none;
+    }
+    .navbar .submenu a:hover{
+      display:block;
+    }

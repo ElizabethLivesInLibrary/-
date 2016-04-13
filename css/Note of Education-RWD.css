@@ -1,0 +1,22 @@
+<style type="text/css">
+    body{
+      background-color:#F0F3BD;
+      font-family:'Roboto', sans-serif;
+      font-size:14px;
+      line-height:1.5em;
+    }
+    header{
+      background-color:#348AA7;
+    }
+    *{
+      box-sizing:border-box;
+    }
+    [class*="col-"]:{
+      float:left;
+      background-color:#8FBC94;
+      padding:8px;
+      border:dotted 2px #C5E99B;
+      border-radius:10px;
+    }
+  未完成
+  </style>
