@@ -1,28 +1,81 @@
 body{
   background-color:#F0F3BD;
-  font-family:'Roboto', sans-serif;
-  font-size:14px;
+  font-family:"Roboto","微軟正黑體",sans-serif;
+  font-size:16px;
   line-height:1.5em;
-}
-header{
-  background-color:#348AA7;
 }
 *{
   box-sizing:border-box;
+}
+.sidebar-container{
+  float:left;
+  width:15%;
+  height:100%;
+  margin:20px auto;
+  position:absolute;
+}
+#sidebar{
+  position:fixed;top:360px;left:-10px;
+}
+#sidebar ul{
+  list-style-type:none;
+}
+.jumbotron{
+  background-color:#348AA7;
+  padding:30px;
+  margin:10px auto;
+  color:#12355c;
+}
+.jumbotron small{
+  color:#ffffff;
 }
 .container-fluid h1{
   float:right;
 }
 .container{
+  background-color:#F0F3BD;
+  overflow:auto;
+  margin:20px auto;
+  padding:30px;
+  width:85%;
+  float:right;
+}
+section{
   background-color:#cfe1b9;
   border: dotted 2px #028090;
   border-radius:10px;
   overflow:auto;
-  clear:both;
-  margin:20px auto;
+  width:auto;
+  margin:10px;
   padding:30px;
 }
-      
+article #coffee{
+  float:right;
+}
+#journey img{
+  width:70%;
+  height:auto;
+  box-shadow:1px 1px 3px 3px #c7c776;
+}
+.thumbnail{
+  background-color:#cfe1b9;
+  padding:5px;
+  margin:3px;
+  overflow:auto;
+}
+#journey .thumbnail img{
+  float:right;
+  margin:3px;
+}
+#journey .thumbnail .row{
+  margin:0px;
+}
+#journey .thumbnail #bus{
+  float:left;
+  margin:3px;
+  width:200px;
+  position:relative; top:300px;
+}
 table{
   table-layout:auto;
   padding:20px;
@@ -54,37 +107,20 @@ footer{
   clear:both;
 }
 
+nav .unselected,.selected{
+  float:left;
+  padding:10px;
+  height:80px;
+  list-style-type:none;
+  width:100%;
+
+}
 nav .unselected{
   background-color:#88d6d6;
-  margin:10px;
-  list-style-type:none;
-  padding:10px;
-  width:20%;
   float:left;
 }
-
-    nav ul li a:link,nav  ul li a:visited{
-      color:#348AA7;
-      border-bottom:none;
-      font-weight:600;
-    }
-    nav ul li.selected{
-      background-color:#525174;
-      color:#000;
-      margin:10px;
-      list-style-type:none;
-      padding:10px;
-      width:20%;
-      float:left;
-    }
-    .navbar ul li a:hover{
-      color:#348AA7;
-    }
-    .navbar .submenu{
-      background-color:#348AA7;
-      color:#513B56;
-      display:none;
-    }
-    .navbar .submenu a:hover{
-      display:block;
-    }
+nav .selected{
+  background-color:#525174;
+  color:#000;
+  float:left;
+}

@@ -1,0 +1,64 @@
+body{
+  background-color:#F0F3BD;
+  font-family:'Roboto', sans-serif;
+  font-size:14px;
+  line-height:1.5em;
+}
+*{
+  box-sizing:border-box;
+}
+/*nav ul .dropdown{
+  display: block;
+}*/
+.jumbotron{
+  background-color:#348AA7;
+  margin:auto;
+  max-width:90%;
+  border:solid;
+}
+#about,#education,#language,#it{
+  position:absolute;
+  width:90%;
+  margin:0 auto;
+  color:#12355c;
+  max-width:90%;
+  height:auto;
+  border:solid;
+}
+#about{
+  background-image:url(http://elizabethlivesinlibrary.github.io/image/index bar/L1.JPG)
+}
+.image{
+  position: absolute;
+  margin:0 auto;
+  padding:0px;
+  max-width:90%;
+  height:auto;
+  border:solid;
+}
+.jumbotron h1{
+  text-align:right;
+  line-height:1.5em;
+  padding:1%;
+  margin:1%;
+}
+.jumbotron h2{
+  float:left;
+  text-align:left;
+  line-height:1.5em;
+  padding:1%;
+  margin:1%;
+}
+footer{
+  background-color:#8FBC94;
+  padding:8px;
+  margin:10px auto;
+  font-family:"華康細黑體","微軟正黑體",sans-serif;
+  font-weight:300;
+  font-size:0.8em;
+  line-height:1.5em;
+  text-align:left;
+  max-width:90%;
+  clear:both;
+  float:center;
+}

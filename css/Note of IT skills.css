@@ -4,8 +4,6 @@ body{
   font-size:14px;
   line-height:1.5em;
 }
-header{
-}
 *{
   box-sizing:border-box;
 }
@@ -13,6 +11,7 @@ header{
   background-color:#348AA7;
   padding:30px;
   margin:10px auto;
+  color:#12355c;
 }
 .container-fluid h1{
   float:right;
@@ -22,7 +21,7 @@ header{
   border: dotted 2px #028090;
   border-radius:10px;
   overflow:auto;
-  clear:both;
+  
   margin:20px auto;
   height:300px;
 } 
