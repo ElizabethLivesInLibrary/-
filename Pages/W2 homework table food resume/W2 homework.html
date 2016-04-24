@@ -9,37 +9,27 @@
  	<link type="text/css" rel="stylesheet" href="../../css/W2 homework.css">
 </head>
 <body>
-<nav>
-      <div class="row">
-        <div class="col-md-12"> 
-          <ul>
-            <div class="col-xs-4 col-sm-3 col-md-2 col1">
-              <li class="unselected"><a href="../index.html">Home Page</a></li>
-            </div>
-            <div class="col-xs-4 col-sm-3 col-md-2 col1">
-              <li class="selected"><a href="Note of Education.html">Note of Education</a></li>
-            </div>
-            <div class="col-xs-4 col-sm-3 col-md-2 col1">
-              <li class="unselected"><a href="Note of Language Learning.html">Note of Language Learning</a></li>
-            </div>
-            <div class="col-xs-4 col-sm-3 col-md-2 col1">
-              <li class="unselected"><a href="Note of IT skills.html">Note of IT skills</a>
-                  <button type="button" class="btn btn-default btn-lg">
-                  <span class="glyphicon glyphicon-th-list" aria-hidden="true"></span> more
-                      <ul><li><a href="Publishing Software.html">Publishing Software</a></li>
-                      <li><a href="Webdesign.html">Webdesign</a>
-                          <ul>
-                          <li><a href="Homework.html">Homework</a></li>
-                          </ul>
-                      </li>
-                    </ul>
-                    
-                  </button>
-              </li>
-            </div>
-          </ul>
-        </div>
-      </div>
+<nav class="navbar navbar-fixed-top">
+  <div class="container-fluid">
+    
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../../index.html">Hello world!</a>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="../../index.html">About</a></li>
+        <li><a href="../Note of Education.html">Education</a></li>
+        <li><a href="../Note of Language Learning.html">Language</a></li>
+        <li class="selected"><a href="../Note of IT skills.html">IT skills</a></li>
+      </ul>
+    </div>
+  </div>
 </nav>
 <header>
     <div class="container-fluid">
@@ -69,16 +59,17 @@
 		<table cellpadding="10px" cellspacing="10px" width="500px" hight="500px">
 		  <tr>
 		    <td>cell[1,1]</td>
+		    <td colspan="2">cell[2,1]</td>
+		    
+		  </tr>
+		  <tr>
 		    <td>cell[1,2]</td>
+		    <td rowspan="2">cell[2,2]</td>
+		    <td>cell[3,2]</td>
+		  </tr>
+		  <tr>
 		    <td>cell[1,3]</td>
-		  </tr>
-		  <tr>
-		    <td>cell[2,1]</td>
-		    <td>cell[2,2]</td>
-		    <td rowspan="2">cell[2,3]</td>
-		  </tr>
-		  <tr>
-		    <td colspan="2">cell[3,2]</td>
+		    <td>cell[2,3]</td
 		    
 		  </tr>
 		</table>

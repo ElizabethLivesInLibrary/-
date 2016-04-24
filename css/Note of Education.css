@@ -1,52 +1,61 @@
+
 body{
   background-color:#F0F3BD;
   font-family:'Roboto', sans-serif;
   font-size:14px;
   line-height:1.5em;
 }
-
-
 *{
   box-sizing:border-box;
 }
-.jumbotron{
+header .container-fluid{
   background-color:#348AA7;
-  padding:30px;
-  margin:10px auto;
+}
+
+
+.container-fluid .jumbotron{
+  background-color:#348AA7;
+  padding:35px;
+  margin:30px auto;
+  color:#12355c;
 }
 .container-fluid h1{
   float:right;
 }
-.container{
-  background-color:#cfe1b9;
-  border: dotted 2px #028090;
-  border-radius:10px;
-  overflow:auto;
-  clear:both;
-}
-      
-.left-content,.content,.right-content{
-  padding:15px;
-  width:25%;
-  max-width:30%;
-  height:600px;
-  border:dotted 3px #00A896;
-  border-radius:10px;
-  vertical-align:middle;
-}
-.left-content{
-  float:left;
+section h3,article{
   margin:20px;
 }
-    
-.right-content{
-  float:right;
-  margin:20px;
-}
-.container header{
-  background-color:#BCE784;
-}
+    @keyframe fadeIn{
+      from{opacity:0;}
+      to{opacity:1;}
+    }
+    @-webkit-keyframes fadeIn{ 
+    from {opacity:0;}
+    to {opacity:1;}
+    }
+    #Undergraduate{
+      animation-name:fadeIn;
+      animation-delay:2s;
+      -webkit-animation:fadeIn 2s; /* Safari and Chrome */
+    }
+    #Postgraduate{
+      animation-name:fadeIn;
+      animation-delay:6s;
+      -webkit-animation:fadeIn 4s; /* Safari and Chrome */
+    }
+    #Interdisciplinary{
+      animation-name:fadeIn;
+      animation-delay:12s;
+      -webkit-animation:fadeIn 10s; /* Safari and Chrome */
+    }
 
+#Interdisciplinary p{
+  background-color:#DB7F8E;
+  color:#604D53;
+  float: right;
+  margin:100px 0 0 0;
+  padding: 10px;
+}
 footer{
   background-color:#8FBC94;
   padding:8px;
@@ -59,21 +68,31 @@ footer{
   clear:both;
 }
 
-nav .unselected,.selected{
-  float:left;
-  padding:10px;
-  height:80px;
-  list-style-type:none;
-  width:100%;
+nav .container-fluid{
+  background-color:#00A896;
+  box-shadow:#c0f4f3 0px 2px 2px;
+  font-size: 1em;
 
-}
-nav .unselected{
-  background-color:#88d6d6;
-  float:left;
 }
 nav .selected{
-  background-color:#525174;
-  color:#000;
-  float:left;
+ background-color:#028090; 
 }
-
+nav ul li a:link{
+  color:#F0F3BD;
+}
+nav ul li a:hover{
+  color:#6dd2bc;
+}
+nav ul li a:visited{
+  color:#1f6072;
+}
+.navbar-header button,.icon-bar{
+  border: solid 1px #1f6072;
+}
+.navbar-header button{
+  background-color: #8cbb88;
+}
+.navbar-header button:hover{
+  background-color: #efe9ac;
+  border: solid 1px #1f6072;
+}

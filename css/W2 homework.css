@@ -23,7 +23,7 @@ body{
 .jumbotron{
   background-color:#348AA7;
   padding:30px;
-  margin:10px auto;
+  margin:30px auto;
   color:#12355c;
 }
 .jumbotron small{
@@ -51,6 +51,10 @@ section{
 }
 article #coffee{
   float:right;
+}
+#food img{
+  width:70%;
+  height:auto;
 }
 #journey img{
   width:70%;
@@ -106,21 +110,31 @@ footer{
   max-width:100%;
   clear:both;
 }
+nav .container-fluid{
+  background-color:#00A896;
+  box-shadow:#c0f4f3 0px 2px 2px;
+  font-size: 1em;
 
-nav .unselected,.selected{
-  float:left;
-  padding:10px;
-  height:80px;
-  list-style-type:none;
-  width:100%;
-
-}
-nav .unselected{
-  background-color:#88d6d6;
-  float:left;
 }
 nav .selected{
-  background-color:#525174;
-  color:#000;
-  float:left;
+ background-color:#028090; 
+}
+nav ul li a:link{
+  color:#F0F3BD;
+}
+nav ul li a:hover{
+  color:#6dd2bc;
+}
+nav ul li a:visited{
+  color:#1f6072;
+}
+.navbar-header button,.icon-bar{
+  border: solid 1px #1f6072;
+}
+.navbar-header button{
+  background-color: #8cbb88;
+}
+.navbar-header button:hover{
+  background-color: #efe9ac;
+  border: solid 1px #1f6072;
 }

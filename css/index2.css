@@ -7,9 +7,9 @@ body{
 *{
   box-sizing:border-box;
 }
-/*nav ul .dropdown{
+/*似乎沒差*/nav ul .dropdown{
   display: block;
-}*/
+}
 .jumbotron{
   background-color:#348AA7;
   margin:auto;
